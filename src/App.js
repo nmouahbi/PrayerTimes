@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import DailyQuote from "./DailyQuote"; // Make sure this is the updated component that uses dailyQuotes array
+import PrayerTimes from "./PrayerTimes";
+import "./App.css"; // Ensure you have this file for CSS
 
 function App() {
+  const city = "Orlando";
+  const country = "US";
+  const method = 2;
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header>
+        {" "}
+        <DailyQuote />
       </header>
+      {/* No need for quotaUrl prop anymore */}
+      <div>
+        <PrayerTimes city={city} country={country} method={method} />
+      </div>
     </div>
   );
 }
