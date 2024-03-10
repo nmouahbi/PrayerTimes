@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.f9b2be51.css",
-    "main.js": "/static/js/main.d6e55754.js",
-    "static/js/453.adc63f9b.chunk.js": "/static/js/453.adc63f9b.chunk.js",
-    "static/media/background.png": "/static/media/background.fe1195056d85da3e4813.png",
-    "index.html": "/index.html",
-    "main.f9b2be51.css.map": "/static/css/main.f9b2be51.css.map",
-    "main.d6e55754.js.map": "/static/js/main.d6e55754.js.map",
-    "453.adc63f9b.chunk.js.map": "/static/js/453.adc63f9b.chunk.js.map"
+    "main.css": "/PrayerTimes/static/css/main.ec2f7821.css",
+    "main.js": "/PrayerTimes/static/js/main.3a273c22.js",
+    "static/js/453.adc63f9b.chunk.js": "/PrayerTimes/static/js/453.adc63f9b.chunk.js",
+    "static/media/background.png": "/PrayerTimes/static/media/background.fe1195056d85da3e4813.png",
+    "index.html": "/PrayerTimes/index.html",
+    "main.ec2f7821.css.map": "/PrayerTimes/static/css/main.ec2f7821.css.map",
+    "main.3a273c22.js.map": "/PrayerTimes/static/js/main.3a273c22.js.map",
+    "453.adc63f9b.chunk.js.map": "/PrayerTimes/static/js/453.adc63f9b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f9b2be51.css",
-    "static/js/main.d6e55754.js"
+    "static/css/main.ec2f7821.css",
+    "static/js/main.3a273c22.js"
   ]
 }
